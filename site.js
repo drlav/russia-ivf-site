@@ -3,7 +3,7 @@ const normalized = value => (value || '').toLocaleLowerCase('ru').replaceAll('ё
 let searchIndex;
 async function getIndex(){
   if(window.PREVIEW_INDEX)return window.PREVIEW_INDEX;
-  if(!searchIndex)searchIndex=fetch('/russia-ivf-site/search-index.json').then(r=>{if(!r.ok)throw new Error('Search unavailable');return r.json()}).catch(error=>{searchIndex=null;throw error});
+  if(!searchIndex)searchIndex=fetch('/search-index.json').then(r=>{if(!r.ok)throw new Error('Search unavailable');return r.json()}).catch(error=>{searchIndex=null;throw error});
   return searchIndex;
 }
 function setup(){

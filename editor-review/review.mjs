@@ -20,7 +20,7 @@ async function setup() {
   const button = get('approve-button');
   const checks = ['sources-check', 'medical-check', 'language-check', 'cover-check', 'notes-check', 'author-check'].map(get);
   try {
-    const response = await fetch('/russia-ivf-site/editor-review/specialists.json', {cache: 'no-store'});
+    const response = await fetch('/editor-review/specialists.json', {cache: 'no-store'});
     if (!response.ok) throw new Error('catalog');
     const catalog = await response.json();
     if (!Array.isArray(catalog.specialists) || !catalog.specialists.length) throw new Error('catalog');
