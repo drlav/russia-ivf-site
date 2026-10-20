@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#193b36">
+  <title>Утверждение материала — Мамонтёнок</title>
+  <link rel="icon" href="/russia-ivf-site/favicon.ico">
+  <link rel="stylesheet" href="/russia-ivf-site/editor-review/review.css">
+  <script type="module" src="/russia-ivf-site/editor-review/review.mjs"></script>
+</head>
+<body>
+  <main>
+    <header><img src="/russia-ivf-site/assets/brand/mammoth-original.png" alt="Мамонтёнок" width="72" height="72"><div><span class="eyebrow">ЭКО В РОССИИ</span><p>Редакция «Мамонтёнка»</p></div></header>
+    <h1>Автор и публикация</h1>
+    <p class="intro">Выбери автора и подтверди проверку статьи, обложки и анонса из карточки бота.</p>
+    <section class="article" aria-label="Материал"><span class="eyebrow">МАТЕРИАЛ</span><p id="article-title">Открой эту страницу из карточки черновика в Telegram.</p></section>
+    <p id="status" class="notice" role="status" aria-live="polite">Загружаем список специалистов…</p>
+    <form id="review-form">
+      <label class="field-label" for="specialist">Автор статьи</label>
+      <select id="specialist" name="specialist" required disabled aria-describedby="specialist-help"><option value="">Выбери имя и должность</option></select>
+      <p id="specialist-help" class="help">Редакция или врач с должностью из раздела «Наша команда». Это имя появится на сайте.</p>
+      <section id="selected-specialist" class="person" hidden aria-live="polite"><h2 id="person-name"></h2><p id="person-role"></p><a id="person-profile" target="_blank" rel="noopener noreferrer">Профиль специалиста ↗</a></section>
+      <fieldset>
+        <legend>Перед утверждением</legend>
+        <label class="check"><input id="sources-check" type="checkbox" required><span>Проверены источники и соответствие им обоих текстов.</span></label>
+        <label class="check"><input id="medical-check" type="checkbox" required><span>Проверены медицинские выводы, ограничения и формулировки.</span></label>
+        <label class="check"><input id="language-check" type="checkbox" required><span>Проверены язык и готовность статьи и анонса к публикации.</span></label>
+        <label class="check"><input id="cover-check" type="checkbox" required><span>Обложка проверена: соответствует статье, не вводит в заблуждение и готова к публикации.</span></label>
+        <label class="check"><input id="notes-check" type="checkbox" required><span>Все вопросы редактору из файла рассмотрены. Ограничения отражены в статье; нерешённых ошибок нет. Если нужны изменения — верну материал на правку в боте.</span></label>
+        <label class="check"><input id="author-check" type="checkbox" required><span id="author-confirmation">Подтверждаю право публиковать материал под выбранным именем.</span></label>
+      </fieldset>
+      <p class="help">Решение об утверждении фиксируется от твоего Telegram-аккаунта. Выбор врача не означает, что врач лично нажал кнопку.</p>
+      <button id="approve-button" type="submit" disabled>Подтвердить публикацию в Telegram →</button>
+      <p class="help">Telegram откроет бота. Если появится кнопка «Запустить», нажми её. Проверка решений — раз в 2 часа с 08:17 до 00:17 МСК; запуск может задержаться. Бот обновит карточку после выпуска на сайте и в канале.</p>
+    </form>
+    <noscript><p class="notice">Для выбора специалиста включи JavaScript в браузере.</p></noscript>
+    <footer><a href="/russia-ivf-site/ourteam/">Команда портала</a><a href="/russia-ivf-site/editor-review/covers/">Обложки</a></footer>
+  </main>
+</body>
+</html>

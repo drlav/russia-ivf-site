@@ -1,0 +1,65 @@
+{
+  "revision": "4950ebf33ea8",
+  "specialists": [
+    {
+      "id": "belousova",
+      "name": "Белоусова Надежда Юрьевна",
+      "role": "Врач акушер-гинеколог, репродуктолог",
+      "profile_url": "https://russia-ivf.com/ourteam/reproduction/belousova/"
+    },
+    {
+      "id": "voznesenskaya",
+      "name": "Вознесенская Юлия Владимировна",
+      "role": "Руководитель Клиники репродуктивной и пренатальной медицины ЕМС, врач гинеколог-репродуктолог",
+      "profile_url": "https://russia-ivf.com/ourteam/reproduction/voznesenskaya-yuliya-vladimirovna/"
+    },
+    {
+      "id": "volodyaev",
+      "name": "Володяев Илья Владимирович",
+      "role": "Эмбриолог",
+      "profile_url": "https://russia-ivf.com/ourteam/embryology/volodyaev-ilya-vladimirovich/"
+    },
+    {
+      "id": "desyatkova",
+      "name": "Десяткова Нина Владимировна",
+      "role": "Врач акушер-гинеколог, Репродуктолог",
+      "profile_url": "https://russia-ivf.com/ourteam/reproduction/desyatkova/"
+    },
+    {
+      "id": "isaev",
+      "name": "Исаев Дмитрий Александрович",
+      "role": "Эмбриолог",
+      "profile_url": "https://russia-ivf.com/ourteam/embryology/isaev/"
+    },
+    {
+      "id": "keburia",
+      "name": "Кебурия Лела Капитоновна",
+      "role": "Врач акушер-гинеколог, репродуктолог",
+      "profile_url": "https://russia-ivf.com/ourteam/reproduction/keburia/"
+    },
+    {
+      "id": "mshalayag",
+      "name": "Мсхалая Георгий Жиулиевич",
+      "role": "Врач - эндокринолог",
+      "profile_url": "https://russia-ivf.com/ourteam/reproduction/mshalayag/"
+    },
+    {
+      "id": "mshalaya",
+      "name": "Мсхалая Мария Александровна",
+      "role": "Врач акушер-гинеколог, репродуктолог",
+      "profile_url": "https://russia-ivf.com/ourteam/reproduction/mshalaya/"
+    },
+    {
+      "id": "trofimova",
+      "name": "Трофимова Ангелина Викторовна",
+      "role": "Эмбриолог",
+      "profile_url": "https://russia-ivf.com/ourteam/embryology/trofimova/"
+    },
+    {
+      "id": "yutkin",
+      "name": "Юткин Евгений Владимирович",
+      "role": "Руководитель отделения эмбриологии, эмбриолог",
+      "profile_url": "https://russia-ivf.com/ourteam/embryology/yutkin-evgeniy-vladimirovich/"
+    }
+  ]
+}
